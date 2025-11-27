@@ -41,7 +41,7 @@ linux:
   target: 'AppImage'
   maintainer: 'Eionas'
   vendor: 'CopoGamerYT'
-  synopsis: 'Launcher for Xeony´s Events'
+  synopsis: 'Launcher for Xeony Events'
   description: 'Xeony Launcher for events and more.'
   category: 'Game'
 
