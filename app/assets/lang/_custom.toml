@@ -4,14 +4,14 @@
 title = "Xeony Launcher"
 
 [ejs.landing]
-mediaGitHubURL = ""
+mediaGitHubURL = "https://github.com/CopoGamerYT/Xeony-Launcher"
 mediaXURL = ""
 mediaInstagramURL = ""
 mediaYouTubeURL = ""
 mediaDiscordURL = "https://discord.gg/RrvkGZXmpf"
 
 [ejs.settings]
-sourceGithubLink = "https://github.com/CopoGamerYT/Xeony-Launcher/"
+sourceGithubLink = "https://github.com/CopoGamerYT/Xeony-Launcher"
 supportLink = "https://github.com/CopoGamerYT/Xeony-Launcher/issues"
 
 [ejs.welcome]

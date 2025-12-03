@@ -51,7 +51,7 @@ loginOptionsCancelButton.onclick = (e) => {
 // =========== XEONY SECURITY: SISTEMA NO PREMIUM AVANZADO ===========
 // ==========================================================================
 
-const BLACKLIST_URL = "http://va1.holy.gg:26403/launcherfiles/blacklist.txt";
+const BLACKLIST_URL = "http://va1.holy.gg:26403/launcherfiles/lista-nombres-mc-no-premium.txt";
 const OFFLINE_COOLDOWN = 1000 * 60 * 60 * 24 * 30; // 30 Días
 
 function isValidOfflineName(name) {

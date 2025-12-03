@@ -1,5 +1,5 @@
-appId: 'xeonylauncher'
-productName: 'Xeony Launcher'
+appId: 'mfflauncher'
+productName: 'MFF Launcher'
 artifactName: '${productName}-setup-${version}.${ext}'
 
 copyright: 'Copyright © CopoGamerYT |Github|'
@@ -39,10 +39,10 @@ mac:
 # Linux Configuration
 linux: 
   target: 'AppImage'
-  maintainer: 'Eionas'
+  maintainer: 'CopoGamerYT'
   vendor: 'CopoGamerYT'
-  synopsis: 'Launcher for Xeony Events'
-  description: 'Xeony Launcher for events and more.'
+  synopsis: 'Launcher for events from minecraft by MFF Studios'
+  description: 'Launcher oficial para eventos de la MFF.'
   category: 'Game'
 
 

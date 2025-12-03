@@ -1,6 +1,6 @@
 {
   "name": "xeonylauncher",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "productName": "Xeony Launcher",
   "description": "Xeony Launcher for events and more",
   "author": "CopoGamerYT and Eionas",
@@ -44,14 +44,14 @@
   "devDependencies": {
     "electron": "^33.2.1",
     "electron-builder": "^25.1.8",
-    "eslint": "^8.57.0"
+    "eslint": "^8.57.1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CopoGamerYT/Xeony-Launcher.git"
   },
   "build": {
-    "appId": "com.copogameryt.xeonylauncher",
+    "appId": "com.xeonystudios.xeonylauncher",
     "productName": "Xeony Launcher",
     "directories": {
       "buildResources": "build",
@@ -59,6 +59,7 @@
     },
     "win": {
       "target": "nsis",
+      "verifyUpdateCodeSignature": false,
       "icon": "app/assets/images/icon.ico"
     },
     "nsis": {
@@ -68,7 +69,20 @@
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
       "runAfterFinish": true,
-      "shortcutName": "Xeony Launcher"
+      "shortcutName": "Xeony Launcher",
+      "artifactName": "${productName}-Setup-${version}.${ext}"
+    },
+    "linux": {
+      "target": [
+        "AppImage"
+      ],
+      "category": "Game"
+    },
+    "mac": {
+      "target": [
+        "dmg"
+      ],
+      "category": "public.app-category.games"
     },
     "publish": [
       {

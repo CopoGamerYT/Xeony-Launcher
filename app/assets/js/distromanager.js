@@ -4,7 +4,7 @@ const ConfigManager = require('./configmanager')
 
 //
 // 
-exports.REMOTE_DISTRO_URL = 'https://raw.githubusercontent.com/CopoGamerYT/xeony-files/refs/heads/main/distribution.json'
+exports.REMOTE_DISTRO_URL = 'http://va1.holy.gg:26403/launcherfiles/lista-de-versiones/distribution.json'
 
 const api = new DistributionAPI(
     ConfigManager.getLauncherDirectory(),
